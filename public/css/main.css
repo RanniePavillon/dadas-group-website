@@ -48,7 +48,7 @@ body {
     }
 
     .navbar .navbar-brand, .navbar .nav-link {
-        color: #555;
+        color: white;
     }
 }
 
@@ -163,4 +163,22 @@ a:hover {
 }
 #activeFooterLink{
   color:yellow;
+}
+
+@media screen and (max-width: 600px) {
+  .footerText {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footerTitle {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px){
+  [class*="col-"]{
+    margin-bottom:15px;
+  }
 }

@@ -60,8 +60,6 @@
                 </div>
             </div>
             <br>
-            <br>
-            <br>
             <div class="row">
                 <div class="col-sm ">
                     <div class="card bg-white shadow p-2 mx-auto h-100" style="border-radius:10px">

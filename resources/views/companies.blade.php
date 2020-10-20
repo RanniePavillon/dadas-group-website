@@ -32,8 +32,6 @@
                 
             </div>
             <br>
-            <br>
-            <br>
             <div class="row">
                 <div class="col-sm ">
                     <div class="card bg-white shadow p-3 mx-auto h-100" style="width:100%;border-radius:10px">

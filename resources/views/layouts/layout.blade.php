@@ -55,6 +55,9 @@
             }
         </style>
     </head>
+
+
+
     <body>
             <!-- navbar -->   
             <header class="header">
@@ -67,7 +70,7 @@
                         
                         <div id="navbarSupportedContent" class="collapse navbar-collapse">
                             <ul class="navbar-nav ml-auto">
-                                <li class="nav-item active"><a href="http://127.0.0.1:8000/" class="nav-link text-uppercase font-weight-bold" id="active">Home <span class="sr-only">(current)</span></a></li>
+                                <li class="nav-item active"><a href="http://127.0.0.1:8000/" class="nav-link text-uppercase font-weight-bold" >Home <span class="sr-only">(current)</span></a></li>
                                 <li class="nav-item"><a href="http://127.0.0.1:8000/companies" class="nav-link text-uppercase font-weight-bold">Companies</a></li>
                                 <li class="nav-item"><a href="http://127.0.0.1:8000/career" class="nav-link text-uppercase font-weight-bold">Careers</a></li>
                                 <li class="nav-item"><a href="http://127.0.0.1:8000/blogs" class="nav-link text-uppercase font-weight-bold">News/Blogs</a></li>
@@ -120,24 +123,24 @@
             <div class="container-fluid py-5 px-5" style="background-color: rgb(165, 1, 1)">
                 <div class="row">
                     <div class="col-sm text-white">
-                        <h2><b>DadasGroup</b></h2>
-                        <p>Make the best product for people</p>
+                        <h4 class="footerTitle"><b>DadasGroup</b></h4>
+                        <p class="footerText">Make the best product for people</p>
                     </div>
                     <div class="col-sm-3 text-white">
-                        <h4>QUICK LINKS</h4>
+                        <h4 class="footerTitle">QUICK LINKS</h4>
                                     <ul class="footerList">
-                                        <li ><a href="http://127.0.0.1:8000/" class="footerLink" id="activeFooterLink">Home <span class="sr-only">(current)</span></a></li>
-                                        <li ><a href="http://127.0.0.1:8000/companies" class="footerLink">Companies</a></li>
-                                        <li ><a href="http://127.0.0.1:8000/career" class="footerLink">Careers</a></li>
-                                        <li ><a href="http://127.0.0.1:8000/blogs" class="footerLink">News/Blogs</a></li>
-                                        <li ><a href="http://127.0.0.1:8000/gallery" class="footerLink">Gallery</a></li>
-                                        <li ><a href="http://127.0.0.1:8000/about" class="footerLink">About Us</a></li>
-                                        <li ><a href="http://127.0.0.1:8000/contact-us" class="footerLink">Contact</a></li>
+                                        <li class="footerText"><a href="http://127.0.0.1:8000/" class="footerLink" >Home <span class="sr-only">(current)</span></a></li>
+                                        <li class="footerText"><a href="http://127.0.0.1:8000/companies" class="footerLink">Companies</a></li>
+                                        <li class="footerText"><a href="http://127.0.0.1:8000/career" class="footerLink">Careers</a></li>
+                                        <li class="footerText"><a href="http://127.0.0.1:8000/blogs" class="footerLink">News/Blogs</a></li>
+                                        <li class="footerText"><a href="http://127.0.0.1:8000/gallery" class="footerLink">Gallery</a></li>
+                                        <li class="footerText"><a href="http://127.0.0.1:8000/about" class="footerLink">About Us</a></li>
+                                        <li class="footerText"><a href="http://127.0.0.1:8000/contact-us" class="footerLink">Contact</a></li>
                                     </ul>
                     </div>
                     <div class="col-sm text-white">
-                        <h4>REACH US</h4>
-                        <p>	
+                        <h4 class="footerTitle" >REACH US</h4>
+                        <p class="footerText">	
                         Mobile<br>
                         0917-459-2075 (Globe) |
                         0933-866-4742 (Sun)<br><br>
@@ -148,17 +151,19 @@
                         </p>
                     </div>
                     <div class="col-sm text-white">
-                        <h4>NEWSLETTER</h4>
-                        <p>Please enter your email, we will send interesting promotions and blogs to you.</p>
+                        <h4 class="footerTitle">NEWSLETTER</h4>
+                        <p class="footerText">Please enter your email, we will send interesting promotions and blogs to you.</p>
                         <input type="email" class="my-2 round" id="email" placeholder="Input your email." name="email"><br>
                         <button type="submit" class="btn btn-light px-5">Send</button>
                     </div>
                 </div>
             </div>
+
             <div class="container-fluid text-right" style="background-color: rgb(165, 1, 1)">
                 <button onclick="topFunction()" id="myBtn" title="Go to top"><i class='fa fa-arrow-circle-up' style='font-size:24px'></i></button>
             </div>
-            <div class="container-fluid py-5 px-5 text-center" style="background-color:  #800000">
+
+            <div class="container-fluid py-4 px-5 text-center" style="background-color:  #800000">
                 <div class="row">
                     <div class="col-sm text-white">
                         <p>© 2020 All Rights Reserved By DadasGroup</p>
