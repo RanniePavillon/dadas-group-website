@@ -19,17 +19,26 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         
-
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
 
 
         <!-- Scripts -->
-        <script>$(function() {
-        $('#sidebarCollapse').on('click', function() {
-            $('#sidebar, #content').toggleClass('active');
-        });
-        });
+        <script>
+            $(function() {
+            $('#sidebarCollapse').on('click', function() {
+                $('#sidebar, #content').toggleClass('active');
+            });
+            });
         </script>
-        
+
+        <script>
+            $(document).ready(function() {
+                $('#example').DataTable();
+            } );
+        </script>
+                
 
         <style>
             body {
@@ -44,59 +53,60 @@
     <body>
             <!-- navbar -->   
             <div class="vertical-nav bg-dark" id="sidebar">
-            <div class=" px-3 mb-2 bg-dark">      
-                <div class="media-body">
-                    <p class="text-white mb-0 border-bottom py-3" style="font-size:18px;">
-                    <img class="img-fluid px-1" src="{{ asset('img/adminLogo.png') }}" style="width:40px">
-                        Administrator
-                    </p>
-                </div>      
-            </div>
+                <div class=" px-3 mb-2 bg-dark">      
+                    <div class="media-body">
+                        <p class="text-white mb-0 border-bottom py-3" style="font-size:18px;">
+                        <img class="img-fluid px-1" src="{{ asset('img/adminLogo.png') }}" style="width:40px">
+                            Administrator
+                        </p>
+                    </div>      
+                </div>
 
 
 
-            <ul class="nav flex-column bg-dark mb-0">
-                <li class="nav-item">
-                    <a href="http://127.0.0.1:8000/adminDashboard" class="nav-link text-light  bg-dark" >
-                        <i class="fa fa-dashboard px-1" style="font-size:19px;color:white"></i> 
-                        Dashboard
-                    </a>
-                </li>
-
-                <li class="nav-item">
-                    <a href="" class="nav-link text-light bg-dark" >
-                    <i class="fa fa-image px-1" style="font-size:19px;color:white"></i> 
-                        Gallery Management
-                    </a>
-
-                    <div>
-                        <a href="http://127.0.0.1:8000/adminGallery-photos" class="nav-link text-light bg-dark" >
-                        <i class="fa fa-angle-right px-1" style="font-size:19px;color:white"></i> 
-                            Photos 
+                <ul class="nav flex-column bg-dark mb-0">
+                    <li class="nav-item">
+                        <a href="http://127.0.0.1:8000/adminDashboard" class="nav-link text-light bg-dark" >
+                            <i class="fa fa-dashboard px-1" style="font-size:19px;color:white"></i> 
+                            Dashboard
                         </a>
+                    </li>
 
-                        <a href="http://127.0.0.1:8000/adminGallery-videos" class="nav-link text-light bg-dark" >
-                        <i class="fa fa-angle-right px-1" style="font-size:19px;color:white"></i> 
-                            Videos 
+                    <li class="nav-item">
+                        <button type="button" class="btn bg-dark text-light text-left" data-toggle="collapse" data-target="#demo" style="width:100%;border-radius:0px;">
+                            <i class="fa fa-image px-1" style="font-size:19px;color:white"></i> 
+                                Gallery Management
+                            <i class="fa fa-angle-down px-1 ml-3" style="font-size:19px;color:white"></i>
+                        </button>
+
+                        <div id="demo" class="collapse">
+                            <a href="http://127.0.0.1:8000/adminGallery-photos" class="nav-link text-light bg-dark ml-3" >
+                            <i class="fa fa-angle-right px-1" style="font-size:19px;color:white"></i> 
+                                Photos 
+                            </a>
+
+                            <a href="http://127.0.0.1:8000/adminGallery-videos" class="nav-link text-light bg-dark ml-3" >
+                            <i class="fa fa-angle-right px-1" style="font-size:19px;color:white"></i> 
+                                Videos 
+                            </a>
+
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="http://127.0.0.1:8000/adminUserAccount" class="nav-link text-light bg-dark">
+                        <i class="fa fa-user-circle-o px-1" style="font-size:19px;color:white"></i> 
+                            User Account Management
                         </a>
+                    </li>
 
-                    </div>
-                </li>
-
-                <li class="nav-item">
-                    <a href="http://127.0.0.1:8000/adminUserAccount" class="nav-link text-light bg-dark">
-                    <i class="fa fa-user-circle-o px-1" style="font-size:19px;color:white"></i> 
-                        User Account Management
-                    </a>
-                </li>
-
-                <li class="nav-item">
-                    <a href="#" class="nav-link text-light bg-dark">
-                    <i class="fa fa-sign-out px-1" style="font-size:19px;color:white"></i> 
-                        Log out
-                    </a>
-                </li>
-            </ul>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-light bg-dark">
+                        <i class="fa fa-sign-out px-1" style="font-size:19px;color:white"></i> 
+                            Log out
+                        </a>
+                    </li>
+                </ul>
             </div>
 
             <div class="page-content" id="content">
@@ -106,7 +116,10 @@
                 <button id="sidebarCollapse" type="button" class="btn rounded px-4 my-2 border-0">
                     <small class="text-uppercase font-weight-bold"><i class="fa fa-bars" style="font-size:16px;background-color:#F5F5F5;color:black"></i></small>
                 </button>
-                <h6 class="float-right">Admin</h6>
+                <h6 class="float-right">
+                    <i class="fa fa-male px-1" style="font-size:19px;color:black"></i> 
+                    Admin
+                </h6>
                 </div>
             <!-- Page content -->
 

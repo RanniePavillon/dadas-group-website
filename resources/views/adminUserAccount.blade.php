@@ -4,7 +4,7 @@
     <div class="container-fluid py-5 bg whitetext-center">
         <h3 class="text-left mx-3">USER ACCOUNT</h3>
 
-        <div class="container bg-white shadow py-2 rounded">
+        <div class="container bg-white shadow py-2 rounded border">
             <table class="table table-bordered mt-2 ">
                 <thead class="thead-dark">
                 <tr>
@@ -29,7 +29,7 @@
                 <div class="col-sm-5">
                     <div class="card shadow-lg mx-auto py-3 px-3" style="border-radius:10px">
                         <div class="card-body">
-                        <h5>Edit</h5>
+                        <h5>Edit Info</h5>
                         <form method="POST" action="{{route('contact.submit')}}" enctype="multipart/form-data">
                             @csrf
                                 <div class="form-group">

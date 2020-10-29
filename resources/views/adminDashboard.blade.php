@@ -10,7 +10,7 @@
                     <div class="col-sm ">
                         <div class="card bg-success text-white shadow  mx-auto h-60" style="border-radius:4px">
                             <div class="card-body text-left">
-                                <h2 class="card-title"><b>20</b></h2>
+                                <h2 class="card-title"><b>2</b></h2>
                                 <i class="fa fa-camera px-1 float-right" style="font-size:70px;color:#202020;opacity: 0.5;"></i>     
                                 <p class="card-text">Photos</p>
                             </div>
@@ -21,7 +21,7 @@
                     <div class="col-sm ">
                         <div class="card bg-danger text-white shadow  mx-auto h-60" style="border-radius:4px">
                             <div class="card-body text-left">
-                                <h2 class="card-title"><b>3</b></h2>
+                                <h2 class="card-title"><b>2</b></h2>
                                 <i class="fa fa-video-camera px-1 float-right" style="font-size:70px;color:#202020;opacity: 0.5;"></i>     
                                 <p class="card-text">Videos</p>
                             </div>
@@ -39,6 +39,8 @@
                             <a href="#" class="text-center text-white border-top" > More Info <i class="fa fa-arrow-circle-right"></i></a>                        
                         </div>
                     </div>
+
+                    
 
                 </div>
                 
