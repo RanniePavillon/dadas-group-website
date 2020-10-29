@@ -29,6 +29,7 @@
                 <div class="col-sm-5">
                     <div class="card shadow-lg mx-auto py-3 px-3" style="border-radius:10px">
                         <div class="card-body">
+                        <h5>Edit</h5>
                         <form method="POST" action="{{route('contact.submit')}}" enctype="multipart/form-data">
                             @csrf
                                 <div class="form-group">
@@ -37,7 +38,7 @@
                                 <div class="form-group">
                                     <input type="password" class="form-control" name="password" id="password" placeholder="Password" required>
                                 </div>
-                                <input type="submit" class="btn btn-danger px-4" value="Edit" >
+                                <input type="submit" class="btn btn-danger px-4" value="Save" >
                         </form>
                         </div>
                     </div>

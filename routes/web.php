@@ -42,8 +42,12 @@ Route::get('/adminUserAccount', function () {
     return view('adminUserAccount');
 });
 
-Route::get('/adminGallery', function () {
-    return view('adminGallery');
+Route::get('/adminGallery-photos', function () {
+    return view('adminGallery-photos');
+});
+
+Route::get('/adminGallery-videos', function () {
+    return view('adminGallery-videos');
 });
 
 Route::get('/contact-us', function () {

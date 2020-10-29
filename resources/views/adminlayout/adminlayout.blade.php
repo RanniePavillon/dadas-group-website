@@ -64,16 +64,29 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="http://127.0.0.1:8000/adminGallery" class="nav-link text-light bg-dark" >
+                    <a href="" class="nav-link text-light bg-dark" >
                     <i class="fa fa-image px-1" style="font-size:19px;color:white"></i> 
-                        Gallery 
+                        Gallery Management
                     </a>
+
+                    <div>
+                        <a href="http://127.0.0.1:8000/adminGallery-photos" class="nav-link text-light bg-dark" >
+                        <i class="fa fa-angle-right px-1" style="font-size:19px;color:white"></i> 
+                            Photos 
+                        </a>
+
+                        <a href="http://127.0.0.1:8000/adminGallery-videos" class="nav-link text-light bg-dark" >
+                        <i class="fa fa-angle-right px-1" style="font-size:19px;color:white"></i> 
+                            Videos 
+                        </a>
+
+                    </div>
                 </li>
 
                 <li class="nav-item">
                     <a href="http://127.0.0.1:8000/adminUserAccount" class="nav-link text-light bg-dark">
                     <i class="fa fa-user-circle-o px-1" style="font-size:19px;color:white"></i> 
-                        User Account
+                        User Account Management
                     </a>
                 </li>
 
