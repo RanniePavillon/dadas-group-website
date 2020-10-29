@@ -181,46 +181,47 @@
 
     
     <!-- Testimonials -->
-    <div class="container text-center">
-            <h1>TESTIMONIALS</h1>
-            <p>Best Food Products for a better start <br>
--Best quality Food Products with best prices</p>
+        <div class="container text-center">
+                <h1>TESTIMONIALS</h1>
+                <p>Best Food Products for a better start <br>
+                    -Best quality Food Products with best prices
+                </p>
         </div>
-    <div class="container my-5">
-            <div class="row">
-                <div class="col-sm ">
-                    <div class="card  p-2 mx-auto h-100 bg-transparent border-0" style="border-radius:10px">
-                        <img class="card-img-top mx-auto py-4 rounded-circle" src="{{ asset('img/dadas1.PNG') }}" alt="Card image" style="width:40%">
-                        <div class="card-body text-center">
-                            <p class="card-text">Dadas una sa sarap, una sa saya. Paborito yan ng anak kung si Aeron, pag umuuwi ako galling sa trabaho tumatawag talaga yan para magpabili.</p>
-						<h5>Ariel Mingi</h5>
-                        <h6>Customer</h6>
+        <div class="container my-5">
+                <div class="row">
+                    <div class="col-sm ">
+                        <div class="card  p-2 mx-auto h-100 bg-transparent border-0" style="border-radius:10px">
+                            <img class="card-img-top mx-auto py-4 rounded-circle" src="{{ asset('img/dadas1.PNG') }}" alt="Card image" style="width:40%">
+                            <div class="card-body text-center">
+                                <p class="card-text">Dadas una sa sarap, una sa saya. Paborito yan ng anak kung si Aeron, pag umuuwi ako galling sa trabaho tumatawag talaga yan para magpabili.</p>
+                            <h5>Ariel Mingi</h5>
+                            <h6>Customer</h6>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm ">
+                        <div class="card   p-2 mx-auto h-100 bg-transparent border-0" style="border-radius:10px">
+                            <img class="card-img-top mx-auto py-4 rounded-circle" src="{{ asset('img/dadas1.PNG') }}" alt="Card image" style="width:40%">
+                            <div class="card-body text-center">
+                                <p class="card-text">Masarap at juicy sa loob at labas kahit wala ng sauce, masarap pa rin.</p>
+                                <h5>Paula Denoso</h5>
+                                <h6>Customer</h6>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm ">
+                        <div class="card   p-2 mx-auto h-100 bg-transparent border-0" style="border-radius:10px">
+                            <img class="card-img-top mx-auto py-4 rounded-circle" src="{{ asset('img/dadas1.PNG') }}" alt="Card image" style="width:40%">
+                            <div class="card-body text-center">
+                                <p class="card-text">Pag-uwi ko galling sa trabaho, lagi talaga akong dumadaan sa branch ng dadas para bumili ng ulam, paborito kasi to ng aking mga anak.</p>
+                                <h5>Regulo Evangelista</h5>
+                                <h6>Customer</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
-                
-                <div class="col-sm ">
-                    <div class="card   p-2 mx-auto h-100 bg-transparent border-0" style="border-radius:10px">
-                        <img class="card-img-top mx-auto py-4 rounded-circle" src="{{ asset('img/dadas1.PNG') }}" alt="Card image" style="width:40%">
-                        <div class="card-body text-center">
-                            <p class="card-text">Masarap at juicy sa loob at labas kahit wala ng sauce, masarap pa rin.</p>
-                            <h5>Paula Denoso</h5>
-                        	<h6>Customer</h6>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm ">
-                    <div class="card   p-2 mx-auto h-100 bg-transparent border-0" style="border-radius:10px">
-                        <img class="card-img-top mx-auto py-4 rounded-circle" src="{{ asset('img/dadas1.PNG') }}" alt="Card image" style="width:40%">
-                        <div class="card-body text-center">
-                            <p class="card-text">Pag-uwi ko galling sa trabaho, lagi talaga akong dumadaan sa branch ng dadas para bumili ng ulam, paborito kasi to ng aking mga anak.</p>
-                            <h5>Regulo Evangelista</h5>
-                        	<h6>Customer</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
         </div>
     

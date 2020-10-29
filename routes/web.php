@@ -34,6 +34,18 @@ Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/adminDashboard', function () {
+    return view('adminDashboard');
+});
+
+Route::get('/adminUserAccount', function () {
+    return view('adminUserAccount');
+});
+
+Route::get('/adminGallery', function () {
+    return view('adminGallery');
+});
+
 Route::get('/contact-us', function () {
     return view('contact-us');
 });
