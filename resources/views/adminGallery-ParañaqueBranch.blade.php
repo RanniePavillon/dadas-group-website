@@ -5,14 +5,14 @@
         <h3 class="text-left mx-3">Gallery</h3>
 
         <div class="container bg-white shadow py-2 my-3 rounded border"> 
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal"><i class="fa fa-plus" style="font-size:18px;color:white"></i> Add video</button> 
-                <p class="my-2">Videos</p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal"><i class="fa fa-plus" style="font-size:18px;color:white"></i> Add image</button> 
+                <p class="my-2">Fourthestate, Parañaque Branch</p>
 
                 <table id="example" class="table table-bordered mt-2 " >
                     <thead class="thead-light">
                     <tr>
                         <th>ID</th>
-                        <th>Video</th>
+                        <th>Image</th>
                         <th>Action</th>
                     </tr>
                     </thead>
@@ -65,7 +65,7 @@
       
         <!-- Modal Header -->
         <div class="modal-header modal-lg">
-          <h4 class="modal-title">Add Video</h4>
+          <h4 class="modal-title">Add Image</h4>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         
@@ -102,7 +102,7 @@
       
         <!-- Modal Header -->
         <div class="modal-header modal-lg">
-          <h4 class="modal-title">Edit Video</h4>
+          <h4 class="modal-title">Edit Image</h4>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         

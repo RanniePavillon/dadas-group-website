@@ -34,6 +34,16 @@ Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/contact-us', function () {
+    return view('contact-us');
+});
+
+Route::get('/contact-us', 'App\Http\Controllers\ContactController@contact');
+
+Route::post('/contact-us', 'App\Http\Controllers\ContactController@contactSubmit')->name('contact.submit');
+
+/* administrator */
+
 Route::get('/adminDashboard', function () {
     return view('adminDashboard');
 });
@@ -42,21 +52,37 @@ Route::get('/adminUserAccount', function () {
     return view('adminUserAccount');
 });
 
-Route::get('/adminGallery-photos', function () {
-    return view('adminGallery-photos');
+Route::get('/adminGallery-LagunaBranch', function () {
+    return view('adminGallery-LagunaBranch');
+});
+
+Route::get('/adminGallery-PangasinanBranch', function () {
+    return view('adminGallery-PangasinanBranch');
+});
+
+Route::get('/adminGallery-ParañaqueBranch', function () {
+    return view('adminGallery-ParañaqueBranch');
+});
+
+Route::get('/adminGallery-Phase4Branch', function () {
+    return view('adminGallery-Phase4Branch');
+});
+
+Route::get('/adminGallery-PasigBranch', function () {
+    return view('adminGallery-PasigBranch');
+});
+
+Route::get('/adminGallery-TaguigBranch', function () {
+    return view('adminGallery-TaguigBranch');
 });
 
 Route::get('/adminGallery-videos', function () {
     return view('adminGallery-videos');
 });
 
-Route::get('/contact-us', function () {
-    return view('contact-us');
-});
+/* administrator */
 
-Route::get('/contact-us', 'App\Http\Controllers\ContactController@contact');
 
-Route::post('/contact-us', 'App\Http\Controllers\ContactController@contactSubmit')->name('contact.submit');
 
 
 
