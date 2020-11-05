@@ -21,7 +21,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Grand Opening</h5>
                             <p class="card-text">J.P. Rizal, Cabuyao Laguna Branch</p>
-                            <a href="#" class="btn btn-danger">See more</a>
+                            <a href="http://127.0.0.1:8000/gallery-LagunaBranch" class="btn btn-danger">See more</a>
                         </div>
                     </div>
                 </div>

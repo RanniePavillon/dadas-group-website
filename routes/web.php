@@ -30,6 +30,12 @@ Route::get('/blogs', function () {
 Route::get('/gallery', function () {
     return view('gallery');
 });
+
+Route::get('/gallery-LagunaBranch', function () {
+    return view('gallery-LagunaBranch');
+});
+
+
 Route::get('/about', function () {
     return view('about');
 });

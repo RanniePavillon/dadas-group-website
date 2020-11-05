@@ -18,6 +18,7 @@
                             <div class="form-group">
                             <textarea class="form-control" name="msg" id="msg" rows="5" placeholder="Message..." ></textarea>
                             </div>
+                            <div class="g-recaptcha my-2" data-sitekey="your_site_key"></div>
                             <input type="submit" class="btn btn-danger" vaue="Submit" >
                     </form>
                     </div>
