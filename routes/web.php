@@ -49,6 +49,10 @@ Route::get('/contact-us', 'App\Http\Controllers\ContactController@contact');
 Route::post('/contact-us', 'App\Http\Controllers\ContactController@contactSubmit')->name('contact.submit');
 
 /* administrator */
+Route::get('/administrator', function () {
+    return view('administrator');
+});
+
 
 Route::get('/adminDashboard', function () {
     return view('adminDashboard');

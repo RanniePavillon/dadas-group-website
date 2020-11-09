@@ -4,7 +4,7 @@
     <div class="container-fluid py-5 bg whitetext-center">
         <h3 class="text-left mx-3">Gallery</h3>
 
-        <div class="container bg-white shadow py-2 my-3 rounded border"> 
+        <div class="container bg-white shadow py-2 my-3 rounded border border-danger"> 
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal"><i class="fa fa-plus" style="font-size:18px;color:white"></i> Add image</button> 
                 <p class="my-2">J.P. Rizal, Cabuyao Laguna Branch</p>
 
@@ -20,7 +20,7 @@
                     <tbody>
                     <tr>
                         <td><p>1</p></td>
-                        <td><img class="" src="{{ asset('img/dadas1.PNG') }}" style="width:20%"></td>
+                        <td><img class="" src="{{ asset('img/gallery1.PNG') }}" style="width:20%"></td>
                         <td>
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#edit"><i class="fa fa-edit" style="font-size:18px;color:white"></i> Edit</button>
                             <button type="button" class="btn btn-danger"><i class="fa fa-trash" style="font-size:18px;color:white"></i> Delete</button>
@@ -28,7 +28,7 @@
                     </tr>
                     <tr>
                         <td><p>2</p></td>
-                        <td><img class="" src="{{ asset('img/dadas2.PNG') }}" style="width:20%"></td>
+                        <td><img class="" src="{{ asset('img/gallery2.PNG') }}" style="width:20%"></td>
                         <td>
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#edit"><i class="fa fa-edit" style="font-size:18px;color:white"></i> Edit</button>
                             <button type="button" class="btn btn-danger"><i class="fa fa-trash" style="font-size:18px;color:white"></i> Delete</button>
@@ -36,7 +36,7 @@
                     </tr>
                     <tr>
                         <td><p>3</p></td>
-                        <td><img class="" src="{{ asset('img/dadas3.PNG') }}" style="width:20%"></td>
+                        <td><img class="" src="{{ asset('img/gallery3.PNG') }}" style="width:20%"></td>
                         <td>
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#edit"><i class="fa fa-edit" style="font-size:18px;color:white"></i> Edit</button>
                             <button type="button" class="btn btn-danger"><i class="fa fa-trash" style="font-size:18px;color:white"></i> Delete</button>

@@ -199,6 +199,7 @@ a:hover {
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
   transition: all 0.4s;
   z-index: 99 !important;
+  background-color:#780000;
 }
 
 .page-content {
@@ -236,4 +237,25 @@ a:hover {
   }
 }
 
+.table{
+  border-style: solid;
+  border-color: red;
+  border-width: 1px; 
+}
+
+input{
+  border:none;
+  background-color: transparent;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.fa-user-circle-o{
+  color: gray;
+}
 
