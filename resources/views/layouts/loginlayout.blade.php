@@ -26,7 +26,6 @@
 
         <!-- Scripts -->
         
-        
                 
 
         <style>
@@ -40,6 +39,8 @@
 
 
     <body>          
+            @yield('style')
             @yield('content')
+            @yield('script')
     </body>
 </html>

@@ -1,10 +1,10 @@
-@extends('adminlayout.adminlayout')
+@extends('layouts.adminlayout')
 @section('content')
 <div class="page-content" id="content">
     <div class="container-fluid py-5 bg whitetext-center">
         <h3 class="text-left mx-3">Gallery</h3>
 
-        <div class="container bg-white shadow py-2 my-3 rounded border border-danger"> 
+        <div class="container bg-white shadow py-2 my-3 rounded border"> 
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal"><i class="fa fa-plus" style="font-size:18px;color:white"></i> Add image</button> 
                 <p class="my-2">J.P. Rizal, Cabuyao Laguna Branch</p>
 

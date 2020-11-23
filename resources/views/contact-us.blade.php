@@ -1,25 +1,31 @@
 @extends('layouts.layout')
 @section('content')
  
-    <!-- Contact -->
+    <!-- Contact -->    
     <div class="container py-5 my-5">
         <div class="row">
             <div class="col-sm-5">
-                <div class="card shadow-lg mx-auto py-5 px-3" style="border-radius:10px">
+                <div class="card shadow-lg mx-auto py-3 px-3" style="border-radius:10px">
                     <div class="card-body">
-                    <form method="POST" action="{{route('contact.submit')}}" enctype="multipart/form-data">
+                    <form method="POST" action="{{route('contact.submit')}}" enctype="multipart/form-data" onsubmit="validateCaptcha()">
                         @csrf
                             <div class="form-group">
-                            <input type="text" class="form-control" name="name" id="name" placeholder="Name" required >
+                                <input type="text" class="form-control" name="name" id="name" placeholder="Name" required >
                             </div>
                             <div class="form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
                             </div>
                             <div class="form-group">
-                            <textarea class="form-control" name="msg" id="msg" rows="5" placeholder="Message..." ></textarea>
+                                <textarea class="form-control" name="msg" id="msg" rows="5" placeholder="Message..." ></textarea>
                             </div>
-                            <div class="g-recaptcha my-2" data-sitekey="your_site_key"></div>
-                            <input type="submit" class="btn btn-danger" vaue="Submit" >
+                            <div class="bg-light border my-2 px-3 rounded" id="captcha"></div>
+                            <div class="form-group">
+
+                                <input type="text" class="form-control" name="captcha" placeholder="Please type the code above." id="cpatchaTextBox" />
+                            </div>
+                            <p id="warning" style="color:red"></p>
+                            <div class="alert alert-success" id="success-alert" style="display:none">Email sent.</div>
+                            <input type="submit" class="btn btn-danger" value="Submit" >
                     </form>
                     </div>
                 </div>
@@ -43,6 +49,5 @@
             </div>
         </div>
     </div>
-
 
 @endsection

@@ -1,4 +1,4 @@
-@extends('adminlayout.adminlayout')
+@extends('layouts.adminlayout')
 @section('content')
 <div class="page-content" id="content">
     <div class="container-fluid py-5 bg whitetext-center">

@@ -1,4 +1,4 @@
-@extends('adminlayout.adminlayout')
+@extends('layouts.adminlayout')
 @section('content')
 <div class="page-content" id="content">
     <div class="container-fluid py-5 text-center">
@@ -8,7 +8,7 @@
                 <div class="row">
                     
                     <div class="col-sm ">
-                        <div class="card bg-success text-white shadow  mx-auto h-60" style="border-radius:4px">
+                        <div class="card bg-success text-white shadow  mx-auto h-60" style="border-radius:10px">
                             <div class="card-body text-left">
                                 <h2 class="card-title"><b>2</b></h2>
                                 <i class="fa fa-camera px-1 float-right" style="font-size:70px;color:#202020;opacity: 0.5;"></i>     
@@ -19,7 +19,7 @@
                     </div>
                     
                     <div class="col-sm ">
-                        <div class="card bg-danger text-white shadow  mx-auto h-60" style="border-radius:4px">
+                        <div class="card bg-danger text-white shadow  mx-auto h-60" style="border-radius:10px">
                             <div class="card-body text-left">
                                 <h2 class="card-title"><b>2</b></h2>
                                 <i class="fa fa-video-camera px-1 float-right" style="font-size:70px;color:#202020;opacity: 0.5;"></i>     
@@ -30,7 +30,7 @@
                     </div>
                     
                     <div class="col-sm ">
-                        <div class="card bg-info text-white shadow  mx-auto h-60" style="border-radius:4px">
+                        <div class="card bg-info text-white shadow  mx-auto h-60" style="border-radius:10px">
                             <div class="card-body text-left">
                                 <h2 class="card-title"><b>2</b></h2>
                                 <i class="fa fa-user-plus px-1 float-right" style="font-size:70px;color:#202020;opacity: 0.5;"></i>     
